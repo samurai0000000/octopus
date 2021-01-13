@@ -1,0 +1,12 @@
+This project, 'octupus', is a utility to control serial consoles remotely
+via ssh connections. The features are:
+    - Leverage libssh for ssh connections
+    - Multiplex authenticated clients to uart consoles
+    - Control connection to configure the UART settings
+
+The deployment scenario it was developed for is to run as a cygwin process
+to control multiple serial consoles (COM or USB serial) attached to a Windows
+PC. The author works with embedded devices and has multiple serial ports that
+need to be managed. This application provides a convenient and secure way to
+establish a connection to those serial devices directly without using remote
+desktop or VNC, etc.
