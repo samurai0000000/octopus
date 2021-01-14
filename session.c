@@ -1,17 +1,17 @@
 /*
- * octupus/session.c
+ * octopus/session.c
  *
  * Copyright (C) 2021, Charles Chiou
  */
 
-#include <octupus.h>
+#include <octopus.h>
 
-int octupus_session_start(int sock, const char *device)
+int octopus_session_start(int sock, const char *device)
 {
 	return 0;
 }
 
-int octupus_session_stop(int sock, const char *device)
+int octopus_session_stop(int sock, const char *device)
 {
 	return 0;
 }

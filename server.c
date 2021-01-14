@@ -1,22 +1,22 @@
 /*
- * octupus/server.c
+ * octopus/server.c
  *
  * Copyright (C) 2021, Charles Chiou
  */
 
-#include <octupus.h>
+#include <octopus.h>
 
-int octupus_server_start_control(int port)
+int octopus_server_start_control(int port)
 {
 	return 0;
 }
 
-int octupus_server_start_serial(int port, const char *device)
+int octopus_server_start_serial(int port, const char *device)
 {
 	return 0;
 }
 
-int octupus_server_stop(void)
+int octopus_server_stop(void)
 {
 	return 0;
 }

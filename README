@@ -1,4 +1,4 @@
-This project, 'octupus', is a utility to control serial consoles remotely
+This project, 'octopus', is a utility to control serial consoles remotely
 via ssh connections. The features are:
     - Leverage libssh for ssh connections
     - Multiplex authenticated clients to uart consoles
