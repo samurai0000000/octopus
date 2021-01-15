@@ -7,7 +7,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <getopt.h>
-#include <libssh/server.h>
+#include <libssh/libssh.h>
 #include <octopus.h>
 
 static const struct option long_options[] = {
